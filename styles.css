@@ -35,31 +35,30 @@
     border-radius: 5px;
 }
  
-.top-middle div{
+.display{
     padding-top: 100px;
-    padding-left: 30%;
+    padding-bottom: 60px;
+    /*padding-left: 30%;
+    */
     
 }
 .top-middle h1{
-    font-size: 40px;
-    padding-left: 15%;
+    font-size: 30px;
+    padding-left: 45%;
     padding-bottom: 2%;
 }
-.top-middle  p pre{
-    font-size: 300px;
+.display p{
+    color: black;
+    padding-left: 0;
     text-align: center;
-    padding-left: 40%;
-    margin-bottom: 0;
-  
 }
 .Money-form{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 0px;
     padding-top: 0px;
-    padding-left: 8%;
-    padding-right: 8%; 
+    padding-left: 30%; 
+    padding-bottom: 20px;
 }
 .Money-form li{
     list-style: none;
@@ -70,7 +69,6 @@
   box-sizing: border-box;
   width: 90px;
   height: 50px;
-  
   border: 2px solid transparent;
   background-color: rgb(236, 241, 241);
   border-radius: 10px;
@@ -79,40 +77,37 @@
     box-sizing: content-box;
     width: 90px;
     height: 30px;
-      
     border: 2px solid rgb(255, 0, 0);
     background-color: rgb(240, 186, 172);
     border-radius: 10px;
 }
-.top-middle .input a{
-    margin-top: 0px;
-    margin-left: 40%;
-    text-decoration: none;
-    color:white;
-    background-color: #f74747;
-    font-weight: 700;
-    padding: 10px 30px;
-    border-radius: 5px;
+
+.submit-form{
+    padding-bottom: 2000px;
 }
 .submit-form form{
+    padding-left: 30%;
+    padding-bottom: 30px;
     width: 380px;
     max-width: 100%;
-    position: relative;
+ 
 }
+
 .submit-form form input:first-child{
-    display: block;
-    width: 100%;
-    padding: 14px 130px 14px 15px;
-    border: 2px solid #f9004d;
-    outline: none;
-    border-radius: 30px;
+    width: 130%;
+    outline: 0%;
+    border-width: 0 0 1px;
+    text-align: center;
+    
 }
+
 .submit-form a{
-    text-decoration: none;
-    color:white;
-    background-color: #f74747;
-    font-weight: 700;
-    padding: 20px 30px;
-    border-radius: 5px;
-    margin-top: 20px;
-}
+        padding: 10px 10px;
+        margin-left: 45%;
+        text-decoration: none;
+        color:white;
+        background-color: #f34e4e;
+        font-weight: 700;
+        border-radius: 5px;
+        text-align: center;
+    }
