@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    background-image: url(images/Rectangle\ 237.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    align-items: center;
+}
+
+.top h1{
+    text-align: center;
+    color: white;
+    font-weight:800;
+    font-size: 50px;
+    padding-top: 200px;
+    margin-bottom: 50px;
+}
+.top p{
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+    word-spacing: 1px;
+}
+.top a{
+    margin-top: 0px;
+    margin-left: 40%;
+    text-decoration: none;
+    color:white;
+    background-color: #f74747;
+    font-weight: 700;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+ 
+.top-middle div{
+    padding-top: 100px;
+    padding-left: 30%;
+    
+}
+.top-middle h1{
+    font-size: 40px;
+    padding-left: 15%;
+    padding-bottom: 2%;
+}
+.top-middle  p pre{
+    font-size: 300px;
+    text-align: center;
+    padding-left: 40%;
+    margin-bottom: 0;
+  
+}
+.Money-form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-left: 8%;
+    padding-right: 8%; 
+}
+.Money-form li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+.white-box{
+  box-sizing: border-box;
+  width: 90px;
+  height: 50px;
+  
+  border: 2px solid transparent;
+  background-color: rgb(236, 241, 241);
+  border-radius: 10px;
+}
+.red-box{
+    box-sizing: content-box;
+    width: 90px;
+    height: 30px;
+      
+    border: 2px solid rgb(255, 0, 0);
+    background-color: rgb(240, 186, 172);
+    border-radius: 10px;
+}
+.top-middle .input a{
+    margin-top: 0px;
+    margin-left: 40%;
+    text-decoration: none;
+    color:white;
+    background-color: #f74747;
+    font-weight: 700;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+.submit-form form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.submit-form form input:first-child{
+    display: block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #f9004d;
+    outline: none;
+    border-radius: 30px;
+}
+.submit-form a{
+    text-decoration: none;
+    color:white;
+    background-color: #f74747;
+    font-weight: 700;
+    padding: 20px 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
